@@ -47,14 +47,14 @@
                                     <action selector="cancelPressed:" destination="7RL-Xj-E1r" eventType="touchUpInside" id="7Gi-JU-4ZP"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email or Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxC-EN-wsk">
+                            <textField opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Email or Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxC-EN-wsk">
                                 <rect key="frame" x="16" y="344" width="358" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="U7h-A8-sXp"/>
                                     <constraint firstAttribute="width" constant="358" id="gq9-Yy-GJP"/>
                                 </constraints>
                                 <color key="textColor" red="0.50588235290000005" green="0.1137254902" blue="0.32549019610000002" alpha="0.8980392157" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
@@ -67,14 +67,14 @@
                                     <constraint firstAttribute="width" constant="150" id="Oq5-Ny-tnv"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BLj-GW-ogR">
+                            <textField opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BLj-GW-ogR">
                                 <rect key="frame" x="16" y="402" width="358" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="2E2-z4-5R0"/>
                                     <constraint firstAttribute="width" constant="358" id="bqh-eY-2b6"/>
                                 </constraints>
                                 <color key="textColor" red="0.50588235290000005" green="0.1137254902" blue="0.32549019610000002" alpha="0.8980392157" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
