@@ -1,23 +1,21 @@
 //
-//  ViewController.swift
+//  Screen2ViewController.swift
 //  PavoLive
 //
 //  Created by Assaad Doumit on 17/03/2021.
 //
 
 import UIKit
-import MaterialComponents.MaterialBottomAppBar
 
-class ViewController: UIViewController {
+class Screen2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        self.navigationController?.isNavigationBarHidden = true
-        
-        
-    }
 
+        // Do any additional setup after loading the view.
+    }
+    
+
+   
 
 }
-
