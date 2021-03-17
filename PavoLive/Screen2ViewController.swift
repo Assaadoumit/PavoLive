@@ -11,7 +11,7 @@ class Screen2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: self.bounds.width, height:d bounds.height + height)
         // Do any additional setup after loading the view.
     }
     
