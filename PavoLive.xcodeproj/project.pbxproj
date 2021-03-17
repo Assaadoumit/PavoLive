@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80E2A5F7260211DF00D0C28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5F6260211DF00D0C28B /* AppDelegate.swift */; };
+		80E2A5F9260211DF00D0C28B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */; };
+		80E2A5FB260211DF00D0C28B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5FA260211DF00D0C28B /* ViewController.swift */; };
+		80E2A5FE260211DF00D0C28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A5FC260211DF00D0C28B /* Main.storyboard */; };
+		80E2A600260211E100D0C28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A5FF260211E100D0C28B /* Assets.xcassets */; };
+		80E2A603260211E100D0C28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A601260211E100D0C28B /* LaunchScreen.storyboard */; };
+		80E2A60E260211E200D0C28B /* PavoLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A60D260211E200D0C28B /* PavoLiveTests.swift */; };
+		80E2A619260211E200D0C28B /* PavoLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A618260211E200D0C28B /* PavoLiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E2A60A260211E200D0C28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E2A5EB260211DF00D0C28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E2A5F2260211DF00D0C28B;
+			remoteInfo = PavoLive;
+		};
+		80E2A615260211E200D0C28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E2A5EB260211DF00D0C28B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E2A5F2260211DF00D0C28B;
+			remoteInfo = PavoLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80E2A5F3260211DF00D0C28B /* PavoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PavoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E2A5F6260211DF00D0C28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80E2A5FA260211DF00D0C28B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80E2A5FD260211DF00D0C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80E2A5FF260211E100D0C28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80E2A602260211E100D0C28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80E2A604260211E100D0C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E2A609260211E200D0C28B /* PavoLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PavoLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E2A60D260211E200D0C28B /* PavoLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavoLiveTests.swift; sourceTree = "<group>"; };
+		80E2A60F260211E200D0C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E2A614260211E200D0C28B /* PavoLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PavoLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E2A618260211E200D0C28B /* PavoLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavoLiveUITests.swift; sourceTree = "<group>"; };
+		80E2A61A260211E200D0C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E2A5F0260211DF00D0C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A606260211E200D0C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A611260211E200D0C28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E2A5EA260211DF00D0C28B = {
+			isa = PBXGroup;
+			children = (
+				80E2A5F5260211DF00D0C28B /* PavoLive */,
+				80E2A60C260211E200D0C28B /* PavoLiveTests */,
+				80E2A617260211E200D0C28B /* PavoLiveUITests */,
+				80E2A5F4260211DF00D0C28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E2A5F4260211DF00D0C28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A5F3260211DF00D0C28B /* PavoLive.app */,
+				80E2A609260211E200D0C28B /* PavoLiveTests.xctest */,
+				80E2A614260211E200D0C28B /* PavoLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E2A5F5260211DF00D0C28B /* PavoLive */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A5F6260211DF00D0C28B /* AppDelegate.swift */,
+				80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */,
+				80E2A5FA260211DF00D0C28B /* ViewController.swift */,
+				80E2A5FC260211DF00D0C28B /* Main.storyboard */,
+				80E2A5FF260211E100D0C28B /* Assets.xcassets */,
+				80E2A601260211E100D0C28B /* LaunchScreen.storyboard */,
+				80E2A604260211E100D0C28B /* Info.plist */,
+			);
+			path = PavoLive;
+			sourceTree = "<group>";
+		};
+		80E2A60C260211E200D0C28B /* PavoLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A60D260211E200D0C28B /* PavoLiveTests.swift */,
+				80E2A60F260211E200D0C28B /* Info.plist */,
+			);
+			path = PavoLiveTests;
+			sourceTree = "<group>";
+		};
+		80E2A617260211E200D0C28B /* PavoLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A618260211E200D0C28B /* PavoLiveUITests.swift */,
+				80E2A61A260211E200D0C28B /* Info.plist */,
+			);
+			path = PavoLiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E2A5F2260211DF00D0C28B /* PavoLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E2A61D260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLive" */;
+			buildPhases = (
+				80E2A5EF260211DF00D0C28B /* Sources */,
+				80E2A5F0260211DF00D0C28B /* Frameworks */,
+				80E2A5F1260211DF00D0C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PavoLive;
+			productName = PavoLive;
+			productReference = 80E2A5F3260211DF00D0C28B /* PavoLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80E2A608260211E200D0C28B /* PavoLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E2A620260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveTests" */;
+			buildPhases = (
+				80E2A605260211E200D0C28B /* Sources */,
+				80E2A606260211E200D0C28B /* Frameworks */,
+				80E2A607260211E200D0C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E2A60B260211E200D0C28B /* PBXTargetDependency */,
+			);
+			name = PavoLiveTests;
+			productName = PavoLiveTests;
+			productReference = 80E2A609260211E200D0C28B /* PavoLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80E2A613260211E200D0C28B /* PavoLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E2A623260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveUITests" */;
+			buildPhases = (
+				80E2A610260211E200D0C28B /* Sources */,
+				80E2A611260211E200D0C28B /* Frameworks */,
+				80E2A612260211E200D0C28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E2A616260211E200D0C28B /* PBXTargetDependency */,
+			);
+			name = PavoLiveUITests;
+			productName = PavoLiveUITests;
+			productReference = 80E2A614260211E200D0C28B /* PavoLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E2A5EB260211DF00D0C28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					80E2A5F2260211DF00D0C28B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					80E2A608260211E200D0C28B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80E2A5F2260211DF00D0C28B;
+					};
+					80E2A613260211E200D0C28B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80E2A5F2260211DF00D0C28B;
+					};
+				};
+			};
+			buildConfigurationList = 80E2A5EE260211DF00D0C28B /* Build configuration list for PBXProject "PavoLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80E2A5EA260211DF00D0C28B;
+			productRefGroup = 80E2A5F4260211DF00D0C28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E2A5F2260211DF00D0C28B /* PavoLive */,
+				80E2A608260211E200D0C28B /* PavoLiveTests */,
+				80E2A613260211E200D0C28B /* PavoLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E2A5F1260211DF00D0C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2A603260211E100D0C28B /* LaunchScreen.storyboard in Resources */,
+				80E2A600260211E100D0C28B /* Assets.xcassets in Resources */,
+				80E2A5FE260211DF00D0C28B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A607260211E200D0C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A612260211E200D0C28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E2A5EF260211DF00D0C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2A5FB260211DF00D0C28B /* ViewController.swift in Sources */,
+				80E2A5F7260211DF00D0C28B /* AppDelegate.swift in Sources */,
+				80E2A5F9260211DF00D0C28B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A605260211E200D0C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2A60E260211E200D0C28B /* PavoLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E2A610260211E200D0C28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2A619260211E200D0C28B /* PavoLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E2A60B260211E200D0C28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E2A5F2260211DF00D0C28B /* PavoLive */;
+			targetProxy = 80E2A60A260211E200D0C28B /* PBXContainerItemProxy */;
+		};
+		80E2A616260211E200D0C28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E2A5F2260211DF00D0C28B /* PavoLive */;
+			targetProxy = 80E2A615260211E200D0C28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80E2A5FC260211DF00D0C28B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E2A5FD260211DF00D0C28B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80E2A601260211E100D0C28B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E2A602260211E100D0C28B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80E2A61B260211E200D0C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80E2A61C260211E200D0C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80E2A61E260211E200D0C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E2A61F260211E200D0C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80E2A621260211E200D0C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PavoLive.app/PavoLive";
+			};
+			name = Debug;
+		};
+		80E2A622260211E200D0C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PavoLive.app/PavoLive";
+			};
+			name = Release;
+		};
+		80E2A624260211E200D0C28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PavoLive;
+			};
+			name = Debug;
+		};
+		80E2A625260211E200D0C28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R65WYTB7T;
+				INFOPLIST_FILE = PavoLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PavoLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PavoLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E2A5EE260211DF00D0C28B /* Build configuration list for PBXProject "PavoLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E2A61B260211E200D0C28B /* Debug */,
+				80E2A61C260211E200D0C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E2A61D260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E2A61E260211E200D0C28B /* Debug */,
+				80E2A61F260211E200D0C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E2A620260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E2A621260211E200D0C28B /* Debug */,
+				80E2A622260211E200D0C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E2A623260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E2A624260211E200D0C28B /* Debug */,
+				80E2A625260211E200D0C28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E2A5EB260211DF00D0C28B /* Project object */;
+}
