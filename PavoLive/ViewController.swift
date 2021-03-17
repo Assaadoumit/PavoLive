@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         setUI()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+
+    }
+    
     func setUI(){
         Button_Google.layer.cornerRadius = 20
         Button_Instagram.layer.cornerRadius = 20
@@ -32,6 +37,11 @@ class ViewController: UIViewController {
         Button_SignIn.layer.cornerRadius = 30
     }
     
-
+    @IBAction func SignIn_Pressed(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(identifier: "Screen2ViewController") as! Screen2ViewController
+        self.navigationController!.pushViewController(vc, animated: true);
+    }
+    
+    
 }
 
