@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		80E2A603260211E100D0C28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A601260211E100D0C28B /* LaunchScreen.storyboard */; };
 		80E2A60E260211E200D0C28B /* PavoLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A60D260211E200D0C28B /* PavoLiveTests.swift */; };
 		80E2A619260211E200D0C28B /* PavoLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A618260211E200D0C28B /* PavoLiveUITests.swift */; };
+		80E2A67E2602372700D0C28B /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A67D2602372700D0C28B /* Screen2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		80E2A614260211E200D0C28B /* PavoLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PavoLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E2A618260211E200D0C28B /* PavoLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavoLiveUITests.swift; sourceTree = "<group>"; };
 		80E2A61A260211E200D0C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E2A67D2602372700D0C28B /* Screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
 		823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-PavoLiveTests/Pods-PavoLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABD4BAA30F6DA8FA8F12DF28 /* Pods-PavoLive-PavoLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive-PavoLiveUITests.release.xcconfig"; path = "Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BAA6DCF18C66FF840D282A3F /* Pods_PavoLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavoLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				80E2A5F6260211DF00D0C28B /* AppDelegate.swift */,
 				80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */,
 				80E2A5FA260211DF00D0C28B /* ViewController.swift */,
+				80E2A67D2602372700D0C28B /* Screen2ViewController.swift */,
 				80E2A5FC260211DF00D0C28B /* Main.storyboard */,
 				80E2A5FF260211E100D0C28B /* Assets.xcassets */,
 				80E2A601260211E100D0C28B /* LaunchScreen.storyboard */,
@@ -165,7 +168,6 @@
 				823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */,
 				D0461B301B8F23D61D2CA584 /* Pods-PavoLiveTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 				80E2A5FB260211DF00D0C28B /* ViewController.swift in Sources */,
 				80E2A5F7260211DF00D0C28B /* AppDelegate.swift in Sources */,
 				80E2A5F9260211DF00D0C28B /* SceneDelegate.swift in Sources */,
+				80E2A67E2602372700D0C28B /* Screen2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -570,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
