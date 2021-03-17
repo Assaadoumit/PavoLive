@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7554FFD96AD20206CA3208 /* Pods_PavoLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063FA54139FAE0CA2C478687 /* Pods_PavoLive.framework */; };
+		7166E9AB5B4C11FCF89C4F39 /* Pods_PavoLive_PavoLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FD82D43B3EB53D557E0E05 /* Pods_PavoLive_PavoLiveUITests.framework */; };
+		7FE0AB976A2B394B1520F2A0 /* Pods_PavoLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA6DCF18C66FF840D282A3F /* Pods_PavoLiveTests.framework */; };
 		80E2A5F7260211DF00D0C28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5F6260211DF00D0C28B /* AppDelegate.swift */; };
 		80E2A5F9260211DF00D0C28B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */; };
 		80E2A5FB260211DF00D0C28B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A5FA260211DF00D0C28B /* ViewController.swift */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063FA54139FAE0CA2C478687 /* Pods_PavoLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12703119DB68478DCEBC8E00 /* Pods-PavoLive-PavoLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive-PavoLiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18BDEEFBE1FAC68858A7BCAB /* Pods-PavoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive.release.xcconfig"; path = "Target Support Files/Pods-PavoLive/Pods-PavoLive.release.xcconfig"; sourceTree = "<group>"; };
+		46FD82D43B3EB53D557E0E05 /* Pods_PavoLive_PavoLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavoLive_PavoLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EECFEF90FBE137A673EFB04 /* Pods-PavoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive.debug.xcconfig"; path = "Target Support Files/Pods-PavoLive/Pods-PavoLive.debug.xcconfig"; sourceTree = "<group>"; };
 		80E2A5F3260211DF00D0C28B /* PavoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PavoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E2A5F6260211DF00D0C28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		80E2A614260211E200D0C28B /* PavoLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PavoLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E2A618260211E200D0C28B /* PavoLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PavoLiveUITests.swift; sourceTree = "<group>"; };
 		80E2A61A260211E200D0C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-PavoLiveTests/Pods-PavoLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD4BAA30F6DA8FA8F12DF28 /* Pods-PavoLive-PavoLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive-PavoLiveUITests.release.xcconfig"; path = "Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAA6DCF18C66FF840D282A3F /* Pods_PavoLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavoLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0461B301B8F23D61D2CA584 /* Pods-PavoLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLiveTests.release.xcconfig"; path = "Target Support Files/Pods-PavoLiveTests/Pods-PavoLiveTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7554FFD96AD20206CA3208 /* Pods_PavoLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE0AB976A2B394B1520F2A0 /* Pods_PavoLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7166E9AB5B4C11FCF89C4F39 /* Pods_PavoLive_PavoLiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				80E2A60C260211E200D0C28B /* PavoLiveTests */,
 				80E2A617260211E200D0C28B /* PavoLiveUITests */,
 				80E2A5F4260211DF00D0C28B /* Products */,
+				F0790826BF213E33576688C3 /* Pods */,
+				DD7E1571F64BD53AF1CC3D39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = PavoLiveUITests;
 			sourceTree = "<group>";
 		};
+		DD7E1571F64BD53AF1CC3D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063FA54139FAE0CA2C478687 /* Pods_PavoLive.framework */,
+				46FD82D43B3EB53D557E0E05 /* Pods_PavoLive_PavoLiveUITests.framework */,
+				BAA6DCF18C66FF840D282A3F /* Pods_PavoLiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0790826BF213E33576688C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EECFEF90FBE137A673EFB04 /* Pods-PavoLive.debug.xcconfig */,
+				18BDEEFBE1FAC68858A7BCAB /* Pods-PavoLive.release.xcconfig */,
+				12703119DB68478DCEBC8E00 /* Pods-PavoLive-PavoLiveUITests.debug.xcconfig */,
+				ABD4BAA30F6DA8FA8F12DF28 /* Pods-PavoLive-PavoLiveUITests.release.xcconfig */,
+				823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */,
+				D0461B301B8F23D61D2CA584 /* Pods-PavoLiveTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E2A61D260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLive" */;
 			buildPhases = (
+				DDA64EA65B33F8014B55F1CB /* [CP] Check Pods Manifest.lock */,
 				80E2A5EF260211DF00D0C28B /* Sources */,
 				80E2A5F0260211DF00D0C28B /* Frameworks */,
 				80E2A5F1260211DF00D0C28B /* Resources */,
+				904DB2F94B01413136863753 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E2A620260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveTests" */;
 			buildPhases = (
+				D0D1E048B8D2EEB494F54C28 /* [CP] Check Pods Manifest.lock */,
 				80E2A605260211E200D0C28B /* Sources */,
 				80E2A606260211E200D0C28B /* Frameworks */,
 				80E2A607260211E200D0C28B /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80E2A623260211E200D0C28B /* Build configuration list for PBXNativeTarget "PavoLiveUITests" */;
 			buildPhases = (
+				258A6D667F29301F5EC4677B /* [CP] Check Pods Manifest.lock */,
 				80E2A610260211E200D0C28B /* Sources */,
 				80E2A611260211E200D0C28B /* Frameworks */,
 				80E2A612260211E200D0C28B /* Resources */,
+				E60F35BAA2C1683EE6C7D8B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		258A6D667F29301F5EC4677B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PavoLive-PavoLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904DB2F94B01413136863753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavoLive/Pods-PavoLive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavoLive/Pods-PavoLive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PavoLive/Pods-PavoLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D1E048B8D2EEB494F54C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PavoLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA64EA65B33F8014B55F1CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PavoLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60F35BAA2C1683EE6C7D8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80E2A5EF260211DF00D0C28B /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		80E2A61E260211E200D0C28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EECFEF90FBE137A673EFB04 /* Pods-PavoLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		80E2A61F260211E200D0C28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BDEEFBE1FAC68858A7BCAB /* Pods-PavoLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		80E2A621260211E200D0C28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		80E2A622260211E200D0C28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0461B301B8F23D61D2CA584 /* Pods-PavoLiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		80E2A624260211E200D0C28B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12703119DB68478DCEBC8E00 /* Pods-PavoLive-PavoLiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		80E2A625260211E200D0C28B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD4BAA30F6DA8FA8F12DF28 /* Pods-PavoLive-PavoLiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
