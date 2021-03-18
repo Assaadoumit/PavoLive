@@ -42,6 +42,12 @@ class ViewController: UIViewController {
         self.navigationController!.pushViewController(vc, animated: true);
     }
     
+    @IBAction func SignUp_Pressed(_ sender: Any){
+        let Screen3StoryBoard : UIStoryboard = UIStoryboard(name: "Screen3", bundle:nil)
+
+        let vc = Screen3StoryBoard.instantiateViewController(identifier: "Screen3ViewController") as! Screen3ViewController
+        self.navigationController!.pushViewController(vc, animated: true);
+    }
     
 }
 
