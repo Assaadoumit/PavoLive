@@ -21,6 +21,7 @@
 		80E2A67E2602372700D0C28B /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A67D2602372700D0C28B /* Screen2ViewController.swift */; };
 		80E2A6BD26035CE500D0C28B /* Screen3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A6BC26035CE500D0C28B /* Screen3.storyboard */; };
 		80E2A6C22603608900D0C28B /* Screen3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2A6C12603608900D0C28B /* Screen3ViewController.swift */; };
+		80E2A6D6260388AD00D0C28B /* TabBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E2A6D5260388AD00D0C28B /* TabBarStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		80E2A67D2602372700D0C28B /* Screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
 		80E2A6BC26035CE500D0C28B /* Screen3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Screen3.storyboard; sourceTree = "<group>"; };
 		80E2A6C12603608900D0C28B /* Screen3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen3ViewController.swift; sourceTree = "<group>"; };
+		80E2A6D5260388AD00D0C28B /* TabBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarStoryboard.storyboard; sourceTree = "<group>"; };
 		823C46053931EB0D6DDD5A27 /* Pods-PavoLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-PavoLiveTests/Pods-PavoLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABD4BAA30F6DA8FA8F12DF28 /* Pods-PavoLive-PavoLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PavoLive-PavoLiveUITests.release.xcconfig"; path = "Target Support Files/Pods-PavoLive-PavoLiveUITests/Pods-PavoLive-PavoLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BAA6DCF18C66FF840D282A3F /* Pods_PavoLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PavoLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				80E2A5F5260211DF00D0C28B /* PavoLive */,
+				80E2A6DB260388D200D0C28B /* View Controllers */,
+				80E2A6DA260388B600D0C28B /* Storyboards */,
 				80E2A60C260211E200D0C28B /* PavoLiveTests */,
 				80E2A617260211E200D0C28B /* PavoLiveUITests */,
 				80E2A5F4260211DF00D0C28B /* Products */,
@@ -124,11 +128,6 @@
 			children = (
 				80E2A5F6260211DF00D0C28B /* AppDelegate.swift */,
 				80E2A5F8260211DF00D0C28B /* SceneDelegate.swift */,
-				80E2A5FA260211DF00D0C28B /* ViewController.swift */,
-				80E2A67D2602372700D0C28B /* Screen2ViewController.swift */,
-				80E2A6C12603608900D0C28B /* Screen3ViewController.swift */,
-				80E2A5FC260211DF00D0C28B /* Main.storyboard */,
-				80E2A6BC26035CE500D0C28B /* Screen3.storyboard */,
 				80E2A5FF260211E100D0C28B /* Assets.xcassets */,
 				80E2A601260211E100D0C28B /* LaunchScreen.storyboard */,
 				80E2A604260211E100D0C28B /* Info.plist */,
@@ -152,6 +151,26 @@
 				80E2A61A260211E200D0C28B /* Info.plist */,
 			);
 			path = PavoLiveUITests;
+			sourceTree = "<group>";
+		};
+		80E2A6DA260388B600D0C28B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A5FC260211DF00D0C28B /* Main.storyboard */,
+				80E2A6BC26035CE500D0C28B /* Screen3.storyboard */,
+				80E2A6D5260388AD00D0C28B /* TabBarStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		80E2A6DB260388D200D0C28B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80E2A5FA260211DF00D0C28B /* ViewController.swift */,
+				80E2A67D2602372700D0C28B /* Screen2ViewController.swift */,
+				80E2A6C12603608900D0C28B /* Screen3ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		DD7E1571F64BD53AF1CC3D39 /* Frameworks */ = {
@@ -287,6 +306,7 @@
 				80E2A603260211E100D0C28B /* LaunchScreen.storyboard in Resources */,
 				80E2A600260211E100D0C28B /* Assets.xcassets in Resources */,
 				80E2A5FE260211DF00D0C28B /* Main.storyboard in Resources */,
+				80E2A6D6260388AD00D0C28B /* TabBarStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
