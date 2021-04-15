@@ -60,6 +60,8 @@ class Screen2ViewController: UIViewController, UIGestureRecognizerDelegate {
         self.navigationController?.popViewController(animated: true)
         
     }
+    
+    
 
     func addLEftToImage(textField: UITextField, image:UIImage){
         let leftImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height))

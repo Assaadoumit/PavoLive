@@ -247,6 +247,9 @@
                                 <state key="normal" title="insta">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="TabBar:" destination="nJZ-ro-Fqc" eventType="touchUpInside" id="5wS-fU-bPF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBS-6v-70S">
                                 <rect key="frame" x="292" y="724" width="68" height="60"/>

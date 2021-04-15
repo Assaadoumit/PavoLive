@@ -49,5 +49,12 @@ class ViewController: UIViewController {
         self.navigationController!.pushViewController(vc, animated: true);
     }
     
+    @IBAction func TabBar(_ sender: Any){
+        let Screen3StoryBoard : UIStoryboard = UIStoryboard(name: "TabBarStoryboard", bundle:nil)
+        
+        let vc = Screen3StoryBoard.instantiateViewController(identifier: "TabBarController") as! TabBarController
+        self.navigationController!.pushViewController(vc, animated: true);
+    }
+    
 }
 
